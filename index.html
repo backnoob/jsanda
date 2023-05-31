@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+    <main>
+      <header>
+        <img class="logo" src="img/logo.png" alt="Logo">
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+            <ul class="nav-list">
+                <li><a href="#">Inicio</a></li>
+                <!-- <li><a href="#">Quiénes somos</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Qué hacemos</a></li> -->
+                <!-- <li><a href="#">Contacto</a></li> -->
+                <!-- <li><a href="productos.html">Tienda</a></li> -->
+                <li><a href="login.html">Loguearse</a></li>
+                <li><a href="register.html">Registrarse</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+           <h1 class="hero-title">
+                Bienvenidos a nuestra WEB
+           </h1>  
+           <h2 class="hero-subtitle">
+                Compra facil y rapido!
+           </h2> 
+           <!-- <a href="productos.html">
+            <button type="button" class="btn2" >
+                ir a Productos&raquo;      
+           </button>
+           </a> -->
+        </div>
+    </section>
+
+    <div class="productos-div container2"> 
+        <div class="opciones">
+          <button class="btn categoria active" type="button">Todas</button>
+          <button class="btn categoria " data-category="reloj" type="button">Relojes</button>
+          <button class="btn categoria " data-category="cadena" type="button">Cadenas</button>
+          <button class="btn categoria " data-category="anillo" type="button">Anillos </button>
+        </div>
+        <div class="container-productos" id="productos">
+        </div>
+    </div>
+   
+    <div class="container3" >
+    </div>
+
+    <div class="container3">
+      <div class="linea"></div>
+      <div class="total"> 
+          <h3 class="card__title2">TOTAL CON ENVIO</h3>
+          <h3 class="precio card__title2">0.00 USD</h3>
+      </div> 
+        <div class="linea"></div>
+        <div class="boton-carro">
+            <button class="btn-carrito btn--primary">Continuar</button>
+        </div>
+    </div>
+
+      <section id="contacto">
+        <div class="separador">
+            <div>
+              <h2>CONTACTANOS</h2>
+            </div>
+        </div>
+        <form  id="form">
+            <div form__field>
+                <small></small>
+                <input type="text" placeholder="Nombre" id="nombre" autocomplete="off" name="nombre" /><br />
+            </div>
+            <div form__field>
+                <small></small>
+            <input type="email" placeholder="Email" id="email" autocomplete="off" name="email" /><br />
+            </div>
+            <div form__field>
+                <small></small>
+            <textarea id="mensaje" placeholder="Mensaje" autocomplete="off" name="mensaje"></textarea><br />
+            </div>
+            <input type="submit" class="btn" id="botonMsj"  />
+        </form>
+      </section>
+      
+
+      <footer>
+        <div class="footer-content">
+            <h3>Joyas Tonga's</h3>
+            <p>Mas de 10 años rodando junto a vos</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy; <a href="#">Tonga's</a>  </p>
+        </div>
+
+    </footer>
+   </main>
+   <script src="index.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

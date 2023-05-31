@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+    <main>
+      <header>
+        <img class="logo" src="img/logo.png" alt="Joyas Tonga's">
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+            <ul class="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="login.html">Loguearse</a></li>
+                <li><a href="register.html">Registrarse</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="productos-div container2"> 
+        <div class="opciones">
+          <button class="btn categoria active" type="button">Todas</button>
+          <button class="btn categoria " data-category="reloj" type="button">Relojes</button>
+          <button class="btn categoria " data-category="cadena" type="button">Cadenas</button>
+          <button class="btn categoria " data-category="anillo" type="button">Anillos </button>
+        </div>
+        <div class="container-productos" id="productos">
+        </div>
+    </div>
+   
+    <div class="container3" >
+    </div>
+
+    <div class="container3">
+      <div class="linea"></div>
+      <div class="total"> 
+          <h3 class="card__title2">TOTAL CON ENVIO</h3>
+          <h3 class="precio card__title2">$0</h3>
+      </div> 
+        <div class="linea"></div>
+        <div class="boton-carro">
+            <button class="btn-carrito btn--primary">Continuar</button>
+        </div>
+    </div>
+
+      <footer>
+        <div class="footer-content">
+            <h3>Joyeria Tonga's</h3>
+            <p>Productos de calidad</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy; <a href="#">Tonga's</a>  </p>
+        </div>
+    </footer>
+
+   </main>
+
+   <script src="index.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
